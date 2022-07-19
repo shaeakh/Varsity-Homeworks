@@ -26,11 +26,11 @@ int main()
     double sigma2 = sqrt( sum2/5 );
     double sample2 = sqrt( sum2/4 );
     if(sigma1<sigma2){
-        printf("Batman No 01 is the best player. Stanfard Deviation of his runs are %lf\n",sigma1);
-                printf("Which is the lowest Stanford deviation.\nwhile the Stanfard Deviation of other player is %lf\n",sigma2);
+        printf("Batman No 01 is the consistent player. Stanfard Deviation of his runs are %lf\n",sigma1);
+        printf("Which is the lowest Stanford deviation.\nwhile the Stanfard Deviation of other player is %lf\n",sigma2);
     }
     else{
-        printf("Batman No 02 is the best player. Stanfard Deviation of his runs are %lf\n",sigma2);
+        printf("Batman No 02 is the consistent player. Stanfard Deviation of his runs are %lf\n",sigma2);
         printf("Which is the lowest Stanford deviation.\nwhile the Stanfard Deviation of other player is %lf\n",sigma1);
     }
 

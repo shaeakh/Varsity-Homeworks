@@ -9,6 +9,7 @@ int main()
             count++;
     }
     double avg = (sum*1.0)/(count*1.0);
-    printf("%d %d %lf",sum,count,avg);
+    printf("sum = %d avg = %lf",sum,avg);
+    fclose(file);
     return 0;
 }
